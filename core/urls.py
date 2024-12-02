@@ -24,7 +24,7 @@ from django.conf.urls.i18n import i18n_patterns
 # translations
 urlpatterns = i18n_patterns(
     path('admin/', admin.site.urls),
-    # show language  to address bar
-    prefix_default_language=True
+    # show language  to address bar default true
+    # prefix_default_language=True
 
 )

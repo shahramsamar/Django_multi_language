@@ -123,7 +123,6 @@ LANGUAGES = [
     ("de", _("German")),
     ("fa", _("Persian")),
 ]
-
 # translations
 
 
