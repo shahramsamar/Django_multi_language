@@ -38,10 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # my application to way 
-    #'website',
-    'website.apps.WebsiteConfig',
-    # 3parties
+     # 3parties
     'modeltranslation',
+    # local,
+    'website.apps.WebsiteConfig',
+   
 ]
 
 MIDDLEWARE = [
@@ -143,3 +144,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+TRANSLATABLE_MODEL_MODULES = [
+    'website.models',  # Replace 'your_app_name' with the name of your app
+]
