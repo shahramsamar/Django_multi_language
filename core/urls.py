@@ -28,3 +28,4 @@ urlpatterns = i18n_patterns(
     # prefix_default_language=True
     path("",include("website.urls")),
 )
+# translations
