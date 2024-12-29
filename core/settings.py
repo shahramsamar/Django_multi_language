@@ -40,11 +40,14 @@ INSTALLED_APPS = [
     # my application to way 
     #'website',
     'website.apps.WebsiteConfig',
+    # 3parties
+    'modeltranslation',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    
     # translations
     'django.middleware.locale.LocaleMiddleware',
     # / translations
@@ -114,6 +117,7 @@ LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
+# translations 
 USE_I18N = True
 
 USE_TZ = True
