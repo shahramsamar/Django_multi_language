@@ -1,0 +1,2 @@
+# create mwssages 
+django-admin makemessages -l fa
