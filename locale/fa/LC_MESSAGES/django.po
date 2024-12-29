@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-02 13:30+0330\n"
+"POT-Creation-Date: 2024-12-29 18:42+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\core\settings.py:125
+#: .\core\settings.py:130
 msgid "English"
 msgstr "انگلیسی"
 
-#: .\core\settings.py:126
+#: .\core\settings.py:131
 msgid "German"
 msgstr "آلمانی"
 
-#: .\core\settings.py:127
+#: .\core\settings.py:132
 msgid "Persian"
 msgstr "فارسی"
 
@@ -1237,6 +1237,10 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
+#: .\venv\Lib\site-packages\modeltranslation\widgets.py:32
+msgid "None"
+msgstr ""
+
 #: .\website\apps.py:8
 msgid "Website"
 msgstr "وبسایت"
@@ -1244,10 +1248,6 @@ msgstr "وبسایت"
 #: .\website\models.py:7
 msgid "Title"
 msgstr "تایتل"
-
-#: .\website\models.py:8
-msgid "Slug"
-msgstr "اسلاگ"
 
 #: .\website\models.py:9
 msgid "Author"
@@ -1280,3 +1280,6 @@ msgstr "پست"
 #: .\website\models.py:18
 msgid "Posts"
 msgstr "پست ها"
+
+#~ msgid "Slug"
+#~ msgstr "اسلاگ"
