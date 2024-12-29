@@ -1,6 +1,7 @@
+{% load i18n %}
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" {% get_current_language_bidi as LANGUAGE_BIDI %}{% if LANGUAGE_BIDI %} dir="rtl"{% endif %}>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,11 @@
 </head>
 <body>
     {% for post in posts %}
-       <h1>{{post.title}}</h1> 
-        <h6>{{post.content}}</h6>
-        <small>{{post.status}}</small>
+        <article>
+            <h1>{{ post.title }}</h1>
+            <h6>{{ post.content }}</h6>
+            <small>{{ post.status }}</small>
+        </article>
     {% endfor %}
 </body>
 </html>
