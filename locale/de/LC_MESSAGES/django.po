@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 18:43+0330\n"
+"POT-Creation-Date: 2024-12-31 14:21+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,16 +18,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\core\settings.py:130
+#: .\core\settings.py:133
 msgid "English"
 msgstr ""
 
-#: .\core\settings.py:131
+#: .\core\settings.py:134
 msgid "German"
 msgstr ""
 
-#: .\core\settings.py:132
+#: .\core\settings.py:135
 msgid "Persian"
+msgstr ""
+
+#: .\templates\index.html:10
+msgid "shahram"
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:15
