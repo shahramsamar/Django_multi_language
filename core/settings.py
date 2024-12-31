@@ -73,6 +73,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                # translations
+                'django.template.context_processors.i18n',
+                # / translations
             ],
         },
     },
