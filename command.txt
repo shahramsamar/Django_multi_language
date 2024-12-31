@@ -1,2 +1,6 @@
 # create mwssages 
 django-admin makemessages -l fa
+django-admin makemessages -l de
+
+#
+django-admin compilemessages
