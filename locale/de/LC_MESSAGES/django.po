@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-31 14:21+0330\n"
+"POT-Creation-Date: 2024-12-31 16:21+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,6 +32,11 @@ msgstr ""
 
 #: .\templates\index.html:10
 msgid "shahram"
+msgstr ""
+
+#: .\templates\index.html:20
+#, python-format
+msgid "This string will have %(post.title)s inside."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:15
